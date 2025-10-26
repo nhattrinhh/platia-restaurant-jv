@@ -1,0 +1,15 @@
+Git
+Tải dự án về máy từ git: git clone https://github.com/nhattrinhh/platia-restaurant-jv.git
+Vào nhánh test: git checkout test
+Hiển thị nhánh: git branch
+Code xong lưu thay đổi tất cả: git add .
+Commit lại: git commit -m “nội dung”
+Đẩy code lên git: git push
+Lấy code về khi ngkhac thay đổi code: git pull
+Thông tin các commit: git log
+Tình trạng: git status
+Tạo nhánh ở local: git branch <name_branch> vd: git branch hotfix
+Tạo nhánh trên remote(github): git push --set-upstream origin <name-branch>
+Xóa nhánh ở local: git branch -d <name-branch> (nếu nhánh chưa được gộp thì ép xóa bằng cách git branch -D <name-branch>)
+Xóa nhánh trên remote(github): git push origin –delete <name-branch>
+Gộp nhánh: git merge <name-branch>
